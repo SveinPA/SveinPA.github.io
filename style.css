@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color:#dddddd;
     margin: 0;
     padding: 0;
     background-color: #333333e8;
@@ -50,4 +51,104 @@ footer {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.img-small-left {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+    border: 2px solid #0c0c0c;
+    float: left;
+    margin-right: 20px;
+}
+
+.img-small-right {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+    border: 2px solid #0c0c0c;
+    float: right;
+    margin-left: 20px;
+}
+
+.tekst-farge-hvit {
+    color: whitesmoke;
+}
+
+.email-icon {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.social-media {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.phone-icon {
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/* Stiler for navigasjonsmenyen */
+nav ul {
+    list-style-type: none; /* Fjerner punktmerking */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Plasserer menyvalgene ved siden av hverandre */
+    position: relative; /* For dropdown-plassering */
+}
+
+/* Stil for lenker */
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hover-effekt på lenker */
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Stiler for dropdown-innholdet */
+.dropdown-content {
+    display: none; /* Skjuler dropdown-menyen */
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+/* Stil for dropdown-lenker */
+.dropdown-content li a {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+.dropdown-content li a:hover {
+    background-color: #575757; /* Hover-effekt på dropdown-lenker */
+}
+
+/* Vis dropdown-menyen når musen er over "Prosjekter" */
+.dropdown:hover .dropdown-content {
+    display: block; /* Viser dropdown-innholdet */
 }
