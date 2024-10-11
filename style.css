@@ -58,7 +58,7 @@ img {
     max-width: 300px;
     height: auto;
     margin: 20px;
-    border: 2px solid #0c0c0c;
+    border: 1px solid #fbf8f8;
     float: left;
     margin-right: 20px;
 }
@@ -68,7 +68,7 @@ img {
     max-width: 300px;
     height: auto;
     margin: 20px;
-    border: 2px solid #0c0c0c;
+    border: 1px solid #fdfdfd;
     float: right;
     margin-left: 20px;
 }
